@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --progress --colors"
+    "start": "webpack-dev-server --content-base src/ --progress --colors"
   },
   "keywords": [],
-  "author": "",
+  "author": "Pirkka Huhtala",
   "license": "ISC",
   "dependencies": {
     "react": "^15.6.1",
