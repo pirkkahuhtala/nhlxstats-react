@@ -12,6 +12,13 @@
         },
         "sourceType": "module"
     },
+    "plugins": [
+        "react"
+    ],
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended"
+    ],
     "rules": {
         "no-const-assign": "warn",
         "no-this-before-super": "warn",
