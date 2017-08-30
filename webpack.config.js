@@ -38,5 +38,8 @@ module.exports = {
       }
     ]
   },
+  devServer: {
+    noInfo: true
+  },
   plugins: [HtmlWebpackPluginConfig]
 }
