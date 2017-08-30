@@ -13,11 +13,13 @@
         "sourceType": "module"
     },
     "plugins": [
-        "react"
+        "react",
+        "jsx-a11y",
+        "import"
     ],
     "extends": [
-        "eslint:recommended",
-        "plugin:react/recommended"
+        "airbnb",
+        "prettier"
     ],
     "rules": {
         "no-const-assign": "warn",
@@ -26,6 +28,35 @@
         "no-unreachable": "warn",
         "no-unused-vars": "warn",
         "constructor-super": "warn",
-        "valid-typeof": "warn"
+        "valid-typeof": "warn",
+        "comma-dangle": [
+            "error",
+            "never"
+        ],
+        "jsx-a11y/href-no-hash": "off",
+        "jsx-a11y/img-has-alt": [
+            0
+        ],
+        "no-confusing-arrow": [
+            0
+        ],
+        "react/jsx-filename-extension": [
+            1,
+            {
+                "extensions": [
+                    ".js",
+                    ".jsx"
+                ]
+            }
+        ],
+        "react/jsx-no-bind": [
+            0
+        ],
+        "react/prop-types": [
+            1
+        ],
+        "react/require-default-props": [
+            0
+        ]
     }
 }

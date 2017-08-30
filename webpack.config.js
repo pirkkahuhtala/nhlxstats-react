@@ -31,6 +31,10 @@ module.exports = {
         test: /\.jsx$/,
         loader: 'babel-loader',
         exclude: /node_modules/
+      },
+      {
+        test: /\.stories.js$/,
+        loader: 'ignore-loader'
       }
     ]
   },
